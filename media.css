@@ -108,6 +108,11 @@
 
         margin-top: -15vh;
     }
+    .heroContainer h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(8, 8, 71);
+}
 
     .heroImage {
         position: absolute;
@@ -166,7 +171,7 @@
 
         to {
             width: 75vw;
-            height: 40vh;
+            height: 50vh;
            
             display: flex;
         }}
@@ -323,7 +328,7 @@
             /* border: 5px solid green; */
             height: 30vh;
             width: 70vw;
-            margin-top: -5rem;
+            margin-top: -10rem;
         }
 
         .contactContainer .contactInfo {
