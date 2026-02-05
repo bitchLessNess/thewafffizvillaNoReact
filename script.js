@@ -11,11 +11,12 @@ menuIcon.addEventListener("click", () => {
 const image = document.getElementById("seconImg");
 const hero = document.querySelector(".hero");
 
-window.addEventListener("scroll", () => {
-  const heroTop = hero.offsetTop;
-  const scrollY = window.scrollY;
+// window.addEventListener("scroll", () => {
+//   const heroTop = hero.offsetTop;
+//   const scrollY = window.scrollY;
 
-  if (scrollY >= heroTop) {
-    image.style.transform = `rotate(${-(scrollY - heroTop) * 0.1}deg)`;
-  }
-});
+//   if (scrollY >= heroTop) {
+//     image.style.transform = `rotate(${-(scrollY - heroTop) * 0.1}deg)`;
+//   }
+// });
+

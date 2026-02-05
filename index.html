@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Waffizz Villa</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap"
     rel="stylesheet" />
@@ -89,34 +90,42 @@
   <!-- Waffle Options -->
   <section class="menu">
     <div class="menuContainer">
-      <h2 class="menuTitle">Our Delicious<br />Waffle Options</h2>
+      <h2 class="menuTitle">Our Delicious Waffle Options</h2>
 
       <div class="menuGrid">
         <div class="menuCard">
-          <img src="img.jpg" alt="Waffle" />
-          <h3>Chocolate Waffle</h3>
+          <div class="menImgContainer">
+            <img src="assets/waffle1.jpg" alt="Waffle" class="menuImg"/>
+          </div>
+          <div class="content">
+            <h3>Chocolate Waffle</h3>
           <p>
             A golden waffle served with Chocolate syrup or toppings of your
             choice.
           </p>
+          </div>
         </div>
 
         <div class="menuCard">
-          <img src="img.jpg" alt="Chocolate Waffle" />
-          <h3>Double Chocolate Waffle</h3>
+          <img src="assets/waffle2.jpg" alt="Chocolate Waffle" class="menuImg"/>
+       <div class="content">
+           <h3>Double Chocolate Waffle</h3>
           <p>
             Rich chocolate waffle topped with Two Chocolates on a crispy
             waffle..
           </p>
+       </div>
         </div>
 
         <div class="menuCard">
-          <img src="img.jpg" alt="chocolate waffle" />
-          <h3>Triple Waffle</h3>
+          <img src="assets/waffle3.jpg" alt="chocolate waffle" class="menuImg"/>
+          <div class="content">
+            <h3>Triple Waffle</h3>
           <p>
             Rich chocolate waffle topped with Three Chocolates on a crispy
             waffle.
           </p>
+          </div>
         </div>
       </div>
     </div>
@@ -127,10 +136,10 @@
     <div class="custContainer">
       <h2>What Our<br />Customers Say</h2>
 
-      <div class="custList">
+      <div class="reviewList">
         <div class="testimonial">
           <p>“The best waffles I’ve ever tasted! So fresh and delicious.”</p>
-          <span>— Faizal Siddique</span>
+          <span class="reviewPep">— Faizal Siddique</span>
         </div>
 
         <div class="testimonial">
@@ -138,7 +147,7 @@
             “I come here every weekend for their chocolate waffles. A
             must-try!”
           </p>
-          <span>— Piyush banodhe</span>
+          <span class="reviewPep">— Piyush banodhe</span>
         </div>
 
         <div class="testimonial">
@@ -146,9 +155,10 @@
             “I come here every weekend for their chocolate waffles. A
             must-try!”
           </p>
-          <span>— Mateen khan</span>
+          <span class="reviewPep">— Mateen khan</span>
         </div>
       </div>
+      <button id="reviewAdd" class="btn">Add Review</button>
     </div>
   </section>
 
@@ -179,7 +189,7 @@
         <input type="text" placeholder="Your Name" required />
         <input type="tel" placeholder="Your Phone Number" required />
         <input type="email" placeholder="Your Email" required />
-        <button class="btn">Send</button>
+        <button class="btn" id="formBtn">Send</button>
       </form>
     </div>
   </section>
