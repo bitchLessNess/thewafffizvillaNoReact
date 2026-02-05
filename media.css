@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
@@ -265,8 +265,9 @@
         border-radius: 0.5rem;
         padding: 1rem;
         height: 20vh;
-        width: 50vw;
+        width: 60vw;
         flex-shrink: 0;
+        font-size: 1.5rem;
         transition: transform 0.3s ease;
 
     }
@@ -282,21 +283,29 @@
     }
 
 
-
+.ctaContainer p{
+    font-size: 1.5rem;
+}
     /*   -----ONTACT  ------------- */
 
     .contactContainer {
         position: relative;
         top: 20vh;
+        font-size: 1.5rem;
+        
 
     }
 
     /* FORM----------------------------- */
     .contactForm {
         /* border: 5px solid green; */
-        height: 50vh;
+        height: 30vh;
         width: 70vw;
         margin-top: -5rem;
+    }
+
+    .contactContainer .contactInfo{
+        margin-bottom: 2rem;
     }
 
 

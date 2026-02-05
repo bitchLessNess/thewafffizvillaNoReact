@@ -320,6 +320,9 @@ html::before {
   object-fit: cover;
 }
 
+.menuCard .content{
+  font-size: 1.3rem;
+}
 
 
 /* --------------customers------------- */
