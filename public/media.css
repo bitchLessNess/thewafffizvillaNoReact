@@ -135,11 +135,7 @@
     }
 
     /*  ----------- why section--------- */
-    .why {
-        /* border: 1px solid red; */
-
-
-    }
+  
 
     .whyContainer {
         background-color: rgba(255, 255, 0, 0.043);
@@ -244,6 +240,9 @@
             height: 1rem;
         }
 
+        .content p{
+            font-size: 0.8rem;
+        }
 
         .menuImg {
             border-radius: 1rem;
@@ -273,7 +272,7 @@
             align-items: center;
             gap: 1rem;
             overflow: auto;
-            height: auto;
+            height: 35vh;
             width: auto;
             /* border: 2px solid purple; */
             padding: 2rem;
@@ -293,11 +292,14 @@
             height: 20vh;
             width: 60vw;
             flex-shrink: 0;
-            font-size: 1.5rem;
+            font-size: 1rem;
             transition: transform 0.3s ease;
 
         }
-
+        .testimonial .reviewPep{
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
         .testimonial:hover {
             transform: scale(1.1);
         }
